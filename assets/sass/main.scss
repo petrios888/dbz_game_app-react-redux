@@ -1,0 +1,64 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+@import "reset";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  // background: purple;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+header {
+  ul {
+    li {
+    display: inline-block;
+    padding: 20px;
+    }
+  }
+}
+.blue-bg {
+  background: blue;
+  overflow: auto;
+  height: 100%;
+  padding: 25px;
+}
+
+.danger-orange {
+  background: orange !important;
+}
+
+
+.danger-red {
+  background: red !important;
+}
+
+
+.user-info{
+  float: left;
+  width: 50%;
+  color: white;
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.GirlImageComp{
+  float: left;
+  width: 50%;
+  color: white;
+  h2 {
+    font-size: 100px;
+
+
+  }
+  img{
+    width: 500px;
+  }
+
+}
